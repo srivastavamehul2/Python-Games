@@ -112,8 +112,8 @@ def gameloop():
         fishfunc(x,y)
         if timea%num==0:
             ya=0
-            #xa=random.randrange(0,dw)
-            xa=300
+            xa=random.randrange(0,dw)
+            #xa=300
             villainfunc(xa,0)
         else:
             ya=ya+(timea/200)+5
